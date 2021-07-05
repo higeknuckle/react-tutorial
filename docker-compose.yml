@@ -4,7 +4,7 @@ services:
   node:
     image: node:alpine
     ports:
-      - 8000
+      - 3000
     volumes:
       - ./site:/usr/local/src/site
     command: sh -c "cd /usr/local/src/site && yarn start"
